@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/images" >
+    
+ <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/greybackground"
+            >
+            
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Customer name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Owner Name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="City"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Address"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Area"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Town"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Postcode"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="District"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="State"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Closer Landmark"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                
+                android:layout_marginTop="15dp"/>
+             
+             <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Contact No."
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+             
+              <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Mobile No."
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+              
+               <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Store Type"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+               
+             <Button android:layout_width="190dp"
+                 android:layout_height="38dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginTop="16dp"
+                 android:text="submit"
+                 android:textColor="#fff"
+                 android:background="@drawable/btn"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            
+            >
+        	
+           
+            
+            
+        </LinearLayout>
+             
+</RelativeLayout>

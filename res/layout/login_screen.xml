@@ -21,7 +21,9 @@
                 android:layout_marginTop="15dp"
                 android:layout_gravity="center_horizontal"/>
             
-             <EditText android:layout_width="fill_parent"
+             <EditText 
+                 android:id="@+id/username"
+                 android:layout_width="fill_parent"
                 android:layout_height="40dp"
                 android:hint="Username"
                 
@@ -31,7 +33,7 @@
              <EditText android:layout_width="fill_parent"
                 android:layout_height="40dp"
                 android:hint="password"
-                
+                 android:id="@+id/password"
                 android:paddingLeft="5dp"
                 android:layout_marginTop="15dp"/>
              
@@ -45,7 +47,9 @@
       >
       
   </LinearLayout>
-             <Button android:layout_width="190dp"
+             <Button 
+                 android:id="@+id/submit"
+                 android:layout_width="190dp"
                  android:layout_height="38dp"
                  android:layout_gravity="center_horizontal"
                  android:layout_marginTop="25dp"
